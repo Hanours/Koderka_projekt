@@ -1,0 +1,72 @@
+
+@use "barvy";
+
+.terms-container__link{
+	color: barvy.$color-button;
+	padding-top:10px ;
+	text-decoration: none;
+	border: 1px solid barvy.$color-button;
+	padding: 10px;
+	border-radius: 10px;
+	color: barvy.$color-secondary;
+	background-color: barvy.$color-button;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+ }
+
+
+ .terms-container__link:hover{
+	border: 1px solid barvy.$color-hover;
+	padding: 10px;
+	border-radius: 10px;
+	color:barvy.$color-secondary;
+	background-color:barvy.$color-hover
+}
+
+.terms-container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: 0px solid barvy.$color-box;
+	background-color: barvy.$color-box;
+	width: 300px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.terms-headline{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+.terms-container-headline{
+	
+	max-width: 250px ;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media screen and (min-width: 890px)   {
+
+
+.terms{
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+		
+} 
+
+
+
+}

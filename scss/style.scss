@@ -1,0 +1,60 @@
+
+@use "barvy";
+@use "hero";
+@use "footer";
+@use "logo";
+@use "icon";
+@use "header";
+@use "menu";
+@use "body";
+
+
+// úvodní stránka
+@use "terms";
+@use "articles";
+@use "hero_clanek";
+
+
+// článek
+@use "clanek/_article_text";
+@use "clanek/_article_picture";
+@use "clanek/_article_hero";
+
+// článek navigace
+@use "clanek/_article_navigation";
+
+// článek jidlo
+
+@use "clanek/food_hero";
+
+@media screen and (min-width: 580px) and (max-width: 890px) {
+	.body{	
+		margin:0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 790px;
+	
+
+	}
+
+	
+}
+
+@media screen and (min-width: 890px)   {
+
+.body{	
+		margin:0;
+		
+	} 
+
+
+
+
+
+
+
+
+
+
+
+}

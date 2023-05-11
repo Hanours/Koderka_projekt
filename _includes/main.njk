@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="module" src="index.js"></script>
+    <title>Fit Dog</title>
+    
+</head>
+<body class="body">
+    <header>
+         
+
+        <div class="header">
+          
+
+        <img class="logo" src="/img/Logo_1.svg" alt="Logo"> 
+
+        <nav class="menu">
+
+        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu__toggler">☰ Menu</label>
+
+		<ul class="menu__list">
+			<li class="menu__item"><a class="menu-link" href="/clanky">ČLÁNKY</a></li>
+			<li class="menu__item"><a class="menu-link" href="">KURZY</a></li>
+			<li class="menu__item"><a class="menu-link" href="#">TERMÍNY ZÁVODŮ</a></li>
+			<li class="menu__item"><a class="menu-link" href="#">KONTAKT</a></li>	
+		</ul>
+
+    </nav>
+    </div> 
+    </header>
+
+     <main class="main">
+
+   	{{ content | safe }}
+
+
+ </main>
+</body>
+<footer class="footer">
+    <p class="footer-text">Made with paws and love.</p>
+</footer>
+
+</html>

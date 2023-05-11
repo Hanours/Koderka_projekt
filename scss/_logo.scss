@@ -1,0 +1,30 @@
+@use "barvy";
+
+
+
+.logo{	
+	margin-top: 10px;
+
+} 
+
+
+
+@media screen and (max-width: 580px) {
+	.logo{
+	   display:none;
+   
+	}
+   
+   
+   
+}
+
+@media screen and (min-width: 890px)   {
+
+	
+	
+	.logo{	
+		margin-right: 220px;	
+	} 
+
+}

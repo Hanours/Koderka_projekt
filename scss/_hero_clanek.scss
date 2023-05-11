@@ -1,0 +1,66 @@
+
+@use "barvy";
+
+.hero_clanky-text{
+	color:barvy.$color-secondary;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 90px;
+	max-width: 500px;
+}
+
+.hero_clanky-nadpis{
+	color:barvy.$color-secondary;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 100px;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 580px) {
+ 
+    .hero_clanky-sekce{	
+        background-image: url("/img/clanky/cover.svg");
+        background-size: cover;
+        height: 400px;
+        margin-top: 30px;
+        background-position: center;
+        max-width: 580px;
+        margin-bottom: 50px;
+        background-repeat: no-repeat;
+    } 
+     
+    }
+
+@media screen and (min-width: 580px) and (max-width: 890px) { 
+
+
+	.hero_clanky-sekce{	
+		background-image: url("/img/clanky/cover.svg");
+		background-size: cover;
+		height: 400px;
+		margin-top: 50px;
+		background-position: center;
+		width: 790px;
+		margin-bottom: 50px;
+		background-repeat: no-repeat;
+	} 
+
+ }
+
+ @media screen and (min-width: 890px)   { 
+
+    .hero_clanky-sekce{	
+        background-image: url("/img/clanky/cover.svg");
+        background-size: 100%;
+        height: 400px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 100%;
+        background-repeat: no-repeat;
+    } 
+
+ }

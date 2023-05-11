@@ -1,0 +1,19 @@
+@use "barvy";
+
+
+@media screen and (min-width: 890px)   {
+
+
+.header	{ 
+    display:flex;
+    align-content: center;
+    background: barvy.$color-box;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    top: 0;
+    justify-content: center;
+    
+    }
+}

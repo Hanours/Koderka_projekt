@@ -1,0 +1,21 @@
+@use "barvy";
+
+.footer{
+	margin-top: 50px ;
+	background-color:barvy.$color-button;
+	color:barvy.$color-secondary;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 100%;
+	display: flex;
+}
+
+
+
+.footer-text{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+

@@ -1,0 +1,44 @@
+
+
+.article-picture_1,
+.article-picture_2{
+	margin-left: auto;
+	margin-right: auto;	
+	display: block;
+	margin-bottom: 50px;
+} 
+
+@media screen and (max-width: 580px) {
+
+    .article-picture_1,
+    .article-picture_2{
+	max-width: 450px;
+	height: auto;	
+}
+
+}
+
+@media screen and (min-width: 580px) and (max-width: 890px)  {
+
+    .article-picture_1,
+.article-picture_2
+{
+	max-width: 450px;
+	height: auto;	
+}
+}
+
+
+@media screen and (min-width: 890px) {
+
+    .article-picture_1,
+	.article-picture_2{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	} 
+
+
+
+}
+
