@@ -1,0 +1,67 @@
+@use "barvy";
+
+
+.traning-text{
+ 	color:barvy.$color-secondary;
+ 	margin-left: auto;
+     margin-right: auto;
+    text-align: center;
+ 	padding-top: 100px;
+	max-width: 500px;
+}
+
+.traning-headline{
+	color:barvy.$color-secondary;
+	margin-left: auto;
+    margin-right: auto;
+ 	text-align: center;
+ 	padding-top: 100px;
+ }
+
+
+ @media screen and (max-width: 580px) {
+ 
+     .traning-section{	
+        background-image: url("/img/clanek_beh/cover.svg");
+         background-size: cover;
+         height: 400px;
+         margin-top: 30px;
+         background-position: center;
+        max-width: 580px;
+         margin-bottom: 30px;
+         background-repeat: no-repeat;
+     } 
+     
+     }
+
+
+
+    
+ @media screen and (min-width: 580px) and (max-width: 890px) { 
+
+
+ 	.traning-section{	
+ 		background-image: url("/img/clanek_beh/cover.svg");
+ 		background-size: cover;
+		height: 400px;
+ 		margin-top: 30px;
+ 		background-position: center;
+		width: 790px;
+		margin-bottom: 30px;
+ 		background-repeat: no-repeat;
+ 	} 
+
+  }
+
+  @media screen and (min-width: 890px)   { 
+
+     .traning-section{	
+         background-image: url("/img/clanek_beh/cover.svg");
+        background-size: 100%;
+        height: 400px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 100%;
+        background-repeat: no-repeat;     } 
+
+ }
