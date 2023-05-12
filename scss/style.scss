@@ -27,7 +27,15 @@
 
 @use "clanek/food_hero";
 
+// článek běh
 @use "clanek/jog_hero";
+
+
+// Kontakt
+@use "kontakt/form";
+@use "kontakt/form_hero";
+
+
 
 @media screen and (min-width: 580px) and (max-width: 890px) {
 	.body{	
