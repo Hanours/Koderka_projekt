@@ -208,6 +208,9 @@ html {
 
 h2 {
   color: #aa6644;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
 }
 
 .terms-container__link {
@@ -935,7 +938,25 @@ h2 {
   background-color: #aa6644;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 580px) {
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #35596a;
+    max-width: 300px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .calendar h3 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 890px) {
   .calendar {
     display: flex;
     flex-direction: column;
@@ -962,6 +983,114 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+  }
+}
+.action-text_1 {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.action-log {
+  color: #35596a;
+  padding-top: 10px;
+  text-decoration: none;
+  border: 1px solid #35596a;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #35596a;
+  width: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.action-log:hover {
+  border: 1px solid #aa6644;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #aa6644;
+}
+
+.map {
+  padding: 0;
+}
+
+@media screen and (max-width: 890px) {
+  .action-text p {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 890px) {
+  .action {
+    display: flex;
+    gap: 70px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .action-text p {
+    width: 500px;
+    height: auto;
+    text-align: left;
+  }
+}
+.action-nadpis {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 580px) {
+  .action-sekce {
+    background-image: url("/img/akce/cover.svg");
+    background-size: cover;
+    height: 400px;
+    margin-top: 30px;
+    background-position: center;
+    max-width: 580px;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 890px) {
+  .action-sekce {
+    background-image: url("/img/akce/cover.svg");
+    background-size: cover;
+    height: 450px;
+    margin-top: 50px;
+    background-position: center;
+    width: 790px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 890px) {
+  .action-sekce {
+    background-image: url("/img/akce/cover.svg");
+    background-size: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    width: 100%;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {

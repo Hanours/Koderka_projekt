@@ -44,6 +44,9 @@
 // Terminy
 @use "terminy/calendar";
 
+// Terminy
+@use "akce/akce";
+@use "akce/akce_hero";
 
 
 @media screen and (min-width: 580px) and (max-width: 890px) {

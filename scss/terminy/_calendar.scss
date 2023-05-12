@@ -24,7 +24,33 @@
    background-color:barvy.$color-hover
 }
 
-@media screen and (max-width: 890px) {
+
+
+@media screen and (max-width: 580px){
+
+    .calendar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid barvy.$color-button;
+        max-width: 300px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .calendar h3{
+      
+        text-align: center;
+
+}}
+
+
+
+
+@media screen and (min-width: 580px) and (max-width: 890px) {
 
     .calendar{
         display: flex;
