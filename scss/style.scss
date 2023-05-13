@@ -48,6 +48,8 @@
 @use "akce/akce";
 @use "akce/akce_hero";
 
+// Kurzy
+@use "kurzy/kurzy";
 
 @media screen and (min-width: 580px) and (max-width: 890px) {
 	.body{	
