@@ -31,11 +31,11 @@
   .hero-sekce {
     background-image: url("/img/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 50px;
+    height: 450px;
+    margin-top: 80px;
     background-position: center;
     width: 790px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
@@ -43,9 +43,9 @@
   .hero-sekce {
     background-image: url("/img/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 80px;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -376,11 +376,11 @@ h2 {
   .hero_clanky-sekce {
     background-image: url("/img/clanky/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 50px;
+    height: 450px;
+    margin-top: 80px;
     background-position: center;
     width: 790px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
@@ -388,9 +388,9 @@ h2 {
   .hero_clanky-sekce {
     background-image: url("/img/clanky/cover.svg");
     background-size: 100%;
-    height: 400px;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    height: 450px;
+    margin-bottom: 80px;
+    margin-top: 80px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -898,11 +898,11 @@ h2 {
   .form-sekce {
     background-image: url("/img/kontakt/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 50px;
+    height: 450px;
+    margin-top: 80px;
     background-position: center;
     width: 790px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
@@ -910,9 +910,9 @@ h2 {
   .form-sekce {
     background-image: url("/img/kontakt/cover.svg");
     background-size: 100%;
-    height: 400px;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    height: 450px;
+    margin-bottom: 80px;
+    margin-top: 80px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -1075,10 +1075,10 @@ h2 {
     background-image: url("/img/akce/cover.svg");
     background-size: cover;
     height: 450px;
-    margin-top: 50px;
+    margin-top: 80px;
     background-position: center;
     width: 790px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
@@ -1086,8 +1086,8 @@ h2 {
   .action-sekce {
     background-image: url("/img/akce/cover.svg");
     background-size: 100%;
-    height: 500px;
-    margin-bottom: 50px;
+    height: 450px;
+    margin-bottom: 80px;
     margin-top: 80px;
     width: 100%;
     background-repeat: no-repeat;
@@ -1174,6 +1174,7 @@ h2 {
   }
   .courses-container img {
     width: 500px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {
