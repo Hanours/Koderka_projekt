@@ -3,7 +3,7 @@
 
 
 
-.courses-nadpis{
+.courses-headline{
 	color:barvy.$color-secondary;
 	margin-left: auto;
     margin-right: auto;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 580px) {
  
-    .courses-sekce{	
+    .courses-section{	
         background-image: url("/img/kurzy/cover.svg");
         background-size: cover;
         height: 400px;
@@ -26,18 +26,18 @@
         background-repeat: no-repeat;
     } 
      
-    }
+}
 
 @media screen and (min-width: 580px) and (max-width: 890px) { 
 
 
-	.courses-sekce{	
+	.courses-section{	
 		background-image: url("/img/kurzy/cover.svg");
 		background-size: cover;
 		height: 450px;
 		margin-top: 80px;
 		background-position: center;
-		width: 790px;
+		width: 890px;
 		margin-bottom: 80px;
 		background-repeat: no-repeat;
 	} 
@@ -46,7 +46,7 @@
 
  @media screen and (min-width: 890px)   { 
 
-    .courses-sekce{	
+    .courses-section{	
         background-image: url("/img/kurzy/cover.svg");
         background-size: 100%;
         height: 450px;

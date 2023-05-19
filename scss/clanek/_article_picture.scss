@@ -12,20 +12,19 @@
 
     .article-picture_1,
     .article-picture_2{
-	max-width: 450px;
-	height: auto;	
-}
+		max-width: 450px;
+		height: auto;		
+	}
 
 }
 
 @media screen and (min-width: 580px) and (max-width: 890px)  {
 
     .article-picture_1,
-.article-picture_2
-{
-	max-width: 450px;
-	height: auto;	
-}
+	.article-picture_2{
+		max-width: 450px;
+		height: auto;	
+	}
 }
 
 
@@ -37,8 +36,5 @@
 		margin-left: auto;
 		margin-right: auto;
 	} 
-
-
-
 }
 

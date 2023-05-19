@@ -24,16 +24,16 @@
  
      .food-section{	
         background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
-         background-size: cover;
-         height: 400px;
-         margin-top: 30px;
-         background-position: center;
+        background-size: cover;
+        height: 400px;
+        margin-top: 30px;
+        background-position: center;
         max-width: 580px;
-         margin-bottom: 30px;
-         background-repeat: no-repeat;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
      } 
      
-     }
+}
 
 
 
@@ -44,11 +44,11 @@
  	.food-section{	
  		background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
  		background-size: cover;
-		height: 400px;
- 		margin-top: 30px;
+		height: 450px;
+ 		margin-top: 100px;
  		background-position: center;
-		width: 790px;
-		margin-bottom: 30px;
+		width: 890px;
+		margin-bottom: 50px;
  		background-repeat: no-repeat;
  	} 
 
@@ -57,11 +57,11 @@
   @media screen and (min-width: 890px)   { 
 
      .food-section{	
-         background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
+        background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
         background-size: 100%;
-        height: 400px;
+        height: 450px;
         margin-bottom: 50px;
-        margin-top: 30px;
+        margin-top: 100px;
         width: 100%;
         background-repeat: no-repeat;     } 
 

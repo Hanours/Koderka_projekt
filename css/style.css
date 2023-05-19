@@ -95,7 +95,20 @@
     background: #ebe9eb;
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 100px;
+    z-index: 1;
+    top: 0;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 890px) {
+  .header {
+    display: flex;
+    align-content: center;
+    background: #ebe9eb;
+    position: fixed;
+    width: 100%;
+    height: 100px;
     z-index: 1;
     top: 0;
     justify-content: center;
@@ -157,23 +170,12 @@
     border-right: 1px solid white;
     background: #ebe9eb;
   }
-  .header {
-    display: flex;
-    align-content: center;
-    background: #ebe9eb;
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    z-index: 1;
-    top: 0;
-    justify-content: center;
-  }
   .menu-active {
     background-color: #ebe9eb;
     box-shadow: 5px -1px 12px -5px #ebe9eb;
     margin-left: 0px;
     margin-top: 0px;
-    height: 80px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -214,6 +216,19 @@ h2 {
   max-width: 500px;
 }
 
+@media screen and (min-width: 580px) and (max-width: 890px) {
+  .body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 890px;
+  }
+}
+@media screen and (min-width: 890px) {
+  .body {
+    margin: 0;
+  }
+}
 .terms-container__link {
   color: #35596a;
   padding-top: 10px;
@@ -487,11 +502,11 @@ h2 {
   .article-section {
     background-image: url("/img/clanek_plavani/clanky_cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 30px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -499,9 +514,9 @@ h2 {
   .article-section {
     background-image: url("/img/clanek_plavani/clanky_cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -564,11 +579,11 @@ h2 {
   .food-section {
     background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 30px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -576,9 +591,9 @@ h2 {
   .food-section {
     background-image: url("/img/clanek_jidlo/cover_jidlo.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -617,11 +632,11 @@ h2 {
   .jog-section {
     background-image: url("/img/clanek_beh/cover.svg");
     background-size: cover;
-    height: 400px;
+    height: 450px;
     margin-top: 30px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -629,9 +644,9 @@ h2 {
   .jog-section {
     background-image: url("/img/clanek_beh/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -670,11 +685,11 @@ h2 {
   .paw-section {
     background-image: url("/img/clanek_tlapky/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 30px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -682,9 +697,9 @@ h2 {
   .paw-section {
     background-image: url("/img/clanek_tlapky/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -723,11 +738,11 @@ h2 {
   .lead-section {
     background-image: url("/img/clanek_stopovacka/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 30px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -735,9 +750,9 @@ h2 {
   .lead-section {
     background-image: url("/img/clanek_stopovacka/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -775,11 +790,11 @@ h2 {
   .traning-section {
     background-image: url("/img/clanek_beh/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 30px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
-    margin-bottom: 30px;
+    width: 890px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
   }
 }
@@ -787,9 +802,9 @@ h2 {
   .traning-section {
     background-image: url("/img/clanek_beh/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -826,62 +841,59 @@ h2 {
 
 .button {
   border: 1px solid #35596a;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   color: white;
   background-color: #35596a;
+  width: 150px;
 }
 
 .button:hover {
   border: 1px solid #aa6644;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   color: white;
   background-color: #aa6644;
 }
 
 @media screen and (max-width: 580px) {
-  .kontakt__grid-text {
+  .contact__grid-text {
     max-width: 450px;
   }
-  .kontakt {
+  .contact {
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {
-  .kontakt__grid-text {
+  .contact__grid-text {
     max-width: 450px;
   }
-  .kontakt {
+  .contact {
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
   }
 }
 @media screen and (min-width: 890px) {
-  .kontakt__grid {
+  .contact__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
-  .kontakt__grid-text {
+  .contact__grid-text {
     max-width: 550px;
   }
-  .kontakt {
+  .contact {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
   }
-  h2 {
+  .contact-title {
     margin: 0;
   }
 }
-.contact_headline {
-  color: white;
-}
-
 .form-text {
   color: white;
   margin-left: auto;
@@ -891,7 +903,7 @@ h2 {
   max-width: 500px;
 }
 
-.form-nadpis {
+.form-headline {
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -901,7 +913,7 @@ h2 {
 }
 
 @media screen and (max-width: 580px) {
-  .form-sekce {
+  .form-section {
     background-image: url("/img/kontakt/cover.svg");
     background-size: cover;
     height: 400px;
@@ -913,24 +925,24 @@ h2 {
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {
-  .form-sekce {
+  .form-section {
     background-image: url("/img/kontakt/cover.svg");
     background-size: cover;
     height: 450px;
-    margin-top: 80px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
+    width: 890px;
     margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 890px) {
-  .form-sekce {
+  .form-section {
     background-image: url("/img/kontakt/cover.svg");
     background-size: 100%;
     height: 450px;
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -967,7 +979,7 @@ h2 {
     align-items: center;
     border: 2px solid #35596a;
     max-width: 300px;
-    height: 270px;
+    height: 280px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
@@ -976,6 +988,11 @@ h2 {
   }
   .calendar h3 {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .label {
+    margin: 0;
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {
@@ -1007,7 +1024,7 @@ h2 {
     border-radius: 10px;
   }
 }
-.action-text_1 {
+.action-text {
   margin-left: auto;
   margin-right: auto;
   line-height: 2;
@@ -1053,22 +1070,24 @@ h2 {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 @media screen and (max-width: 890px) {
   .action-text p {
-    width: 400px;
     height: auto;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
   }
-  .map {
+  .map iframe {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
     margin-top: 50px;
+    max-width: 500px;
   }
 }
 @media screen and (min-width: 890px) {
@@ -1111,10 +1130,10 @@ h2 {
   .action-section {
     background-image: url("/img/akce/cover.svg");
     background-size: cover;
-    height: 400px;
-    margin-top: 80px;
+    height: 450px;
+    margin-top: 100px;
     background-position: center;
-    width: 790px;
+    width: 890px;
     margin-bottom: 50px;
     background-repeat: no-repeat;
   }
@@ -1123,9 +1142,9 @@ h2 {
   .action-section {
     background-image: url("/img/akce/cover.svg");
     background-size: 100%;
-    height: 400px;
+    height: 450px;
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -1156,7 +1175,7 @@ h2 {
 }
 
 .courses-container__text,
-.courses-container-headline {
+.courses-container__headline {
   padding-bottom: 30px;
   max-width: 250px;
   margin-left: auto;
@@ -1206,7 +1225,7 @@ h2 {
     height: 550px;
   }
   .courses-container__text,
-  .courses-container-headline {
+  .courses-container__headline {
     max-width: 350px;
   }
   .courses-container img {
@@ -1214,7 +1233,7 @@ h2 {
     height: 250px;
   }
 }
-.courses-nadpis {
+.courses-headline {
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -1224,7 +1243,7 @@ h2 {
 }
 
 @media screen and (max-width: 580px) {
-  .courses-sekce {
+  .courses-section {
     background-image: url("/img/kurzy/cover.svg");
     background-size: cover;
     height: 400px;
@@ -1236,19 +1255,19 @@ h2 {
   }
 }
 @media screen and (min-width: 580px) and (max-width: 890px) {
-  .courses-sekce {
+  .courses-section {
     background-image: url("/img/kurzy/cover.svg");
     background-size: cover;
     height: 450px;
     margin-top: 80px;
     background-position: center;
-    width: 790px;
+    width: 890px;
     margin-bottom: 80px;
     background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 890px) {
-  .courses-sekce {
+  .courses-section {
     background-image: url("/img/kurzy/cover.svg");
     background-size: 100%;
     height: 450px;
@@ -1256,18 +1275,5 @@ h2 {
     margin-top: 80px;
     width: 100%;
     background-repeat: no-repeat;
-  }
-}
-@media screen and (min-width: 580px) and (max-width: 890px) {
-  .body {
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 790px;
-  }
-}
-@media screen and (min-width: 890px) {
-  .body {
-    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */

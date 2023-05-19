@@ -52,34 +52,3 @@
 @use "kurzy/kurzy";
 @use "kurzy/kurzy_hero";
 
-@media screen and (min-width: 580px) and (max-width: 890px) {
-	.body{	
-		margin:0;
-		margin-left: auto;
-		margin-right: auto;
-		width: 790px;
-	
-
-	}
-
-	
-}
-
-@media screen and (min-width: 890px)   {
-
-.body{	
-		margin:0;
-		
-	} 
-
-
-
-
-
-
-
-
-
-
-
-}
