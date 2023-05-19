@@ -1,5 +1,9 @@
 
 @use "barvy";
+.contact_headline{
+	color:barvy.$color-secondary;
+
+}
 
 .form-text{
 	color:barvy.$color-secondary;
