@@ -2,7 +2,6 @@
 @use "barvy";
 
 
-
 .trik-headline{
 	color:barvy.$color-secondary;
 	margin-left: auto;
@@ -16,7 +15,7 @@
 @media screen and (max-width: 580px) {
  
     .trik-section{	
-        background-image: url("/img/call/cover.png");
+        background-image: url("/img/trik/cover.png");
         background-size: cover;
         height: 400px;
         margin-top: 30px;
@@ -32,7 +31,7 @@
 
 
 	.trik-section{	
-		background-image: url("/img/call/cover.png");
+		background-image: url("/img/trik/cover.png");
 		background-size: cover;
 		height: 450px;
 		margin-top: 80px;
