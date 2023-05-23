@@ -3,7 +3,6 @@
 
 .courses-container img{
 	width: 300px;
-	height: 180px;
 	border-radius: 10px 10px 0 0;
 }
 
@@ -86,7 +85,7 @@
 } 
 
 	.courses-container{
-   	width: 500px;
+   		width: 500px;
 		height: 550px;
 	} 
 	.courses-container__text,
@@ -97,6 +96,7 @@
 	.courses-container img{
 		width: 500px;
     	height: 250px;
+		border-radius: 10px 10px 0 0;
 	}
 
 
