@@ -7,17 +7,10 @@
     margin-right: auto;
 	text-align: center;
 	padding-top: 100px;
-	max-width: 500px;
-}
-
-.hero-nadpis{
-	color:barvy.$color-secondary;
-	margin-left: auto;
-    margin-right: auto;
-	text-align: center;
-	padding-top: 100px;
+	max-width: 600px;
     font-size: 30px;
 }
+
 
 
 @media screen and (max-width: 580px) {
@@ -57,7 +50,7 @@
  @media screen and (min-width: 890px)   { 
 
     .hero-sekce{	
-        background-image: url("/img/cover.svg");
+        background-image: url("/img/cover.png");
         background-size: 100%;
         height: 450px;
         margin-bottom: 80px;
