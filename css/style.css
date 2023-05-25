@@ -1436,4 +1436,54 @@ h2 {
   .long {
     text-align: center;
   }
+}
+.contact__grid-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.form-fields input {
+  margin-bottom: 10px;
+}
+
+.form-fields_checkbox {
+  margin-top: 30px;
+}
+
+.form-fields label {
+  display: block;
+  color: #242424;
+  font-size: 15px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
+.form-fields :is(input, textarea, select) {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #35596a;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.button {
+  border: 1px solid #35596a;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #35596a;
+  width: 150px;
+  display: block;
+  margin-top: 30px;
+}
+
+.button:hover {
+  border: 1px solid #aa6644;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #aa6644;
 }/*# sourceMappingURL=style.css.map */

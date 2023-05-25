@@ -1,0 +1,52 @@
+---
+layout: main.njk
+---
+
+<div class="hero">
+        
+    <div class="action-section">
+        <h1 class="action-headline">Přihlášení</h1>    
+</div>
+
+<div class="contact__grid-item">
+<form action="" method="post">
+
+    <div class="form-fields">
+        <label for="jmeno" class="required">Jméno a příjmení</label>
+        <input type="text" name="jmeno" id="jmeno" required>
+    </div>
+
+    <div class="form-fields">
+        <label for="email" class="required">E-mail</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="form-fields">
+        <label for="telefon">Telefon</label>
+        <input type="tel" name="telefon" id="telefon">
+    </div>
+
+    <div class="form-fields">
+        <label for="adresa" class="required">Ulice</label>
+        <input type="text" name="adresa" id="adresa" rows="2" required>
+    </div>
+
+    <div class="form-fields">
+        <label for="psc" class="required">PSČ</label>
+        <input type="text" name="adresa" id="psc" rows="2" required>
+    </div>
+
+
+    <div class="form-fields_checkbox">
+        <label for="checkbox">Souhlasím s obchodními podmínkami</label>
+        <input 	type="checkbox" 
+                name="souhlas"
+                id="souhlas"
+                value="ano">
+    </div>
+
+
+    <button class="button" type="submit">Odešli objednávku</button>
+</form>
+
+</div>
